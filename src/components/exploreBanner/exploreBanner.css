@@ -1,0 +1,34 @@
+.explore-banner {
+  background-image: url("/img/banner-carrinho.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 320px;
+}
+
+.explore-banner__text {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .explore-banner__text {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+.explore-banner__title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 600;
+  font-size: 2.75rem;
+  color: #2b2118;
+  line-height: 1.15;
+}
+
+.explore-banner__subtitle {
+  color: #3d342a;
+  font-size: 0.95rem;
+  max-width: 260px;
+}

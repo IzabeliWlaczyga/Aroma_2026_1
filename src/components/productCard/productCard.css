@@ -1,0 +1,14 @@
+.title {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 575.98px) {
+    .chakra-card__root img {
+        height: 180px;
+    }
+
+    .chakra-card__footer button {
+        width: 100% !important;
+    }
+}

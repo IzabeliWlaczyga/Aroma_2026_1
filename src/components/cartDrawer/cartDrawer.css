@@ -1,0 +1,11 @@
+@media (max-width: 575.98px) {
+    [data-scope="drawer"][data-part="content"] {
+        max-width: 100vw;
+    }
+
+    [data-scope="drawer"][data-part="footer"] {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+}

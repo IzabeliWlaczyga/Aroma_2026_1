@@ -1,0 +1,153 @@
+:root {
+    --bege: #f3e3c8;
+    --marrom: #3c2415;
+    --branco: #fffaf4;
+}
+
+.banner {
+    width: 100%;
+    min-height: 400px;
+    padding: 42px 52px;
+    background-color: var(--marrom);
+    color: var(--marrom);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner .container-fluid {
+    padding: 0;
+}
+
+.banner-content {
+    gap: 20px;
+    min-height: 316px;
+}
+
+.banner-text {
+    flex: 1 1 460px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner-text h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--bege);
+    margin: 0;
+}
+
+.banner-text p {
+    max-width: 520px;
+    width: 100%;
+    margin: 0;
+    font-size: 18px;
+    color: var(--bege);
+}
+
+.banner-content img {
+    flex: 0 0 42%;
+    width: 42%;
+    max-width: 330px;
+    height: 330px;
+    object-fit: contain;
+    display: block;
+}
+
+.banner-btn {
+    align-items: stretch;
+}
+
+.banner-card {
+    width: 100%;
+    min-height: 96px;
+    padding: 18px;
+    border: 2px solid rgba(60, 36, 21, 0.18);
+    border-radius: 10px;
+    background-color: var(--bege);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--marrom);
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.banner-card span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.banner-card:hover,
+.card-active {
+    border-color: var(--branco);
+    box-shadow: 0 10px 24px rgba(60, 36, 21, 0.14);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+    .banner {
+        padding: 34px 24px;
+    }
+
+    .banner-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        min-height: auto;
+        text-align: center;
+    }
+
+    .banner-text {
+        flex-basis: auto;
+        align-items: center;
+    }
+
+    .banner-content h2 {
+        font-size: 34px;
+    }
+
+    .banner-text p {
+        font-size: 16px;
+    }
+
+    .banner-content img {
+        width: min(100%, 330px);
+        height: 260px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .banner {
+        min-height: auto;
+        padding: 28px 18px;
+    }
+
+    .banner-content h2 {
+        font-size: 28px;
+    }
+
+    .banner-text p {
+        font-size: 14px;
+    }
+
+    .banner-content img {
+        height: 210px;
+    }
+
+    .banner-btn {
+        gap: 10px 0;
+    }
+
+    .banner-card {
+        min-height: 72px;
+        padding: 14px;
+    }
+
+    .banner-card span {
+        font-size: 14px;
+    }
+}

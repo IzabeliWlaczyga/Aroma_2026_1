@@ -1,0 +1,224 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Café Notas de Chocolate Belga",
+      "marca": "Café do Vale",
+      "descricao": "Café especial 100% arábica com notas marcantes de chocolate belga e finalização suave.",
+      "categoria": "Cafés em Grão",
+      "preco": 49.9,
+      "desconto": 10,
+      "imagemPrincipal": "/img/products/product-1.png",
+      "galeria": []
+    },
+    {
+      "id": 2,
+      "nome": "Café Serra da Mantiqueira Frutado",
+      "marca": "Serra Café",
+      "descricao": "Grãos selecionados com notas frutadas e acidez equilibrada.",
+      "categoria": "Cafés em Grão",
+      "preco": 54.9,
+      "desconto": 0,
+      "imagemPrincipal": "/img/products/product-2.png",
+      "galeria": []
+    },
+    {
+      "id": 3,
+      "nome": "Café Caramelo & Avelã Reserva",
+      "marca": "Fazenda Ouro",
+      "descricao": "Blend especial com aromas de caramelo e avelã torrada.",
+      "categoria": "Cafés em Grão",
+      "preco": 59.9,
+      "desconto": 5,
+      "imagemPrincipal": "/img/products/product-3.png",
+      "galeria": []
+    },
+    {
+      "id": 4,
+      "nome": "Café Torra Escura Bourbon Intenso",
+      "marca": "Black Bean",
+      "descricao": "Torra escura com corpo intenso e sabor prolongado.",
+      "categoria": "Cafés em Grão",
+      "preco": 45.9,
+      "desconto": 10,
+      "imagemPrincipal": "/img/products/product-4.png",
+      "galeria": []
+    },
+    {
+      "id": 5,
+      "nome": "Café Moído Chocolate e Castanhas",
+      "marca": "Aroma",
+      "descricao": "Café moído premium com notas de chocolate ao leite e castanhas.",
+      "categoria": "Cafés Moídos",
+      "preco": 38.9,
+      "desconto": 0,
+      "imagemPrincipal": "/img/products/product-5.png",
+      "galeria": []
+    },
+    {
+      "id": 6,
+      "nome": "Café Tradicional Aroma da Fazenda",
+      "marca": "Bom Dia",
+      "descricao": "Sabor equilibrado com aroma típico de café recém-torrado.",
+      "categoria": "Cafés Moídos",
+      "preco": 29.9,
+      "desconto": 10,
+      "imagemPrincipal": "/img/products/product-6.png",
+      "galeria": []
+    },
+    {
+      "id": 7,
+      "nome": "Café Gourmet Notas de Caramelo",
+      "marca": "Grão Nobre",
+      "descricao": "Perfil sensorial adocicado com notas de caramelo e mel.",
+      "categoria": "Cafés Moídos",
+      "preco": 42.9,
+      "desconto": 5,
+      "imagemPrincipal": "/img/products/product-7.png",
+      "galeria": []
+    },
+    {
+      "id": 8,
+      "nome": "Café Extra Forte Torra Brasileira",
+      "marca": "Potência",
+      "descricao": "Torra intensa para quem aprecia um café encorpado.",
+      "categoria": "Cafés Moídos",
+      "preco": 34.9,
+      "desconto": 0,
+      "imagemPrincipal": "/img/products/product-8.png",
+      "galeria": []
+    },
+    {
+      "id": 9,
+      "nome": "Espresso Intenso Cremoso",
+      "marca": "Caps Coffee",
+      "descricao": "Cápsulas de espresso encorpado com crema aveludada.",
+      "categoria": "Cafés em Cápsula",
+      "preco": 24.9,
+      "desconto": 10,
+      "imagemPrincipal": "/img/products/product-9.png",
+      "galeria": []
+    },
+    {
+      "id": 10,
+      "nome": "Latte Baunilha Suave",
+      "marca": "Caps Coffee",
+      "descricao": "Bebida cremosa com delicadas notas de baunilha.",
+      "categoria": "Cafés em Cápsula",
+      "preco": 27.9,
+      "desconto": 5,
+      "imagemPrincipal": "/img/products/product-10.png",
+      "galeria": []
+    },
+    {
+      "id": 11,
+      "nome": "Espresso Caramelo Gourmet",
+      "marca": "Coffee Plus",
+      "descricao": "Café espresso com toque sofisticado de caramelo.",
+      "categoria": "Cafés em Cápsula",
+      "preco": 29.9,
+      "desconto": 10,
+      "imagemPrincipal": "/img/products/product-11.png",
+      "galeria": []
+    },
+    {
+      "id": 12,
+      "nome": "Espresso Descafeinado Equilibrado",
+      "marca": "Coffee Plus",
+      "descricao": "Sabor marcante sem cafeína, ideal para qualquer horário.",
+      "categoria": "Cafés em Cápsula",
+      "preco": 25.9,
+      "desconto": 0,
+      "imagemPrincipal": "/img/products/product-12.png",
+      "galeria": []
+    },
+    {
+      "id": 13,
+      "nome": "Máquina Espresso Compact",
+      "marca": "Barista Home",
+      "descricao": "Máquina compacta para preparo rápido de espresso.",
+      "categoria": "Acessórios",
+      "preco": 399.9,
+      "desconto": 5,
+      "imagemPrincipal": "/img/products/product-13.png",
+      "galeria": []
+    },
+    {
+      "id": 14,
+      "nome": "Máquina Automática Premium",
+      "marca": "Coffee Tech",
+      "descricao": "Sistema automático com ajuste de intensidade e temperatura.",
+      "categoria": "Acessórios",
+      "preco": 699.9,
+      "desconto": 0,
+      "imagemPrincipal": "/img/products/product-14.png",
+      "galeria": []
+    },
+    {
+      "id": 15,
+      "nome": "Máquina Multi Bebidas",
+      "marca": "Brew Master",
+      "descricao": "Compatível com cafés, cappuccinos e bebidas especiais.",
+      "categoria": "Acessórios",
+      "preco": 549.9,
+      "desconto": 0,
+      "imagemPrincipal": "/img/products/product-15.png",
+      "galeria": []
+    },
+    {
+      "id": 16,
+      "nome": "Máquina Espresso Pro",
+      "marca": "Barista Home",
+      "descricao": "Modelo profissional com vaporizador para leite.",
+      "categoria": "Acessórios",
+      "preco": 899.9,
+      "desconto": 0,
+      "imagemPrincipal": "/img/products/product-16.png",
+      "galeria": []
+    },
+    {
+      "id": 17,
+      "nome": "Caneca Térmica Inox Premium",
+      "marca": "Coffee Style",
+      "descricao": "Caneca térmica que mantém a bebida quente por horas.",
+      "categoria": "Acessórios",
+      "preco": 39.9,
+      "desconto": 0,
+      "imagemPrincipal": "/img/products/product-17.png",
+      "galeria": []
+    },
+    {
+      "id": 18,
+      "nome": "Caneca Cerâmica Barista",
+      "marca": "Coffee Style",
+      "descricao": "Caneca elegante para degustação de cafés especiais.",
+      "categoria": "Acessórios",
+      "preco": 29.9,
+      "desconto": 0,
+      "imagemPrincipal": "/img/products/product-18.png",
+      "galeria": []
+    },
+    {
+      "id": 19,
+      "nome": "Cafeteira Francesa Clássica 600ml",
+      "marca": "Brew Master",
+      "descricao": "Método francês para extração rica e encorpada.",
+      "categoria": "Acessórios",
+      "preco": 89.9,
+      "desconto": 0,
+      "imagemPrincipal": "/img/products/product-19.png",
+      "galeria": []
+    },
+    {
+      "id": 20,
+      "nome": "Cafeteira de Cápsula Smart",
+      "marca": "Coffee Tech",
+      "descricao": "Praticidade e rapidez para preparar cafés em segundos.",
+      "categoria": "Acessórios",
+      "preco": 249.9,
+      "desconto": 0,
+      "imagemPrincipal": "/img/products/product-20.png",
+      "galeria": []
+    }
+  ]
+}
